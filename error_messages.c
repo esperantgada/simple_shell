@@ -47,7 +47,7 @@ void build_message(char **av, char *fir_com, int count)
 	_puterror(count % 10 + '0');
 	write(STDERR_FILENO, ": ", 2);
 	write(STDERR_FILENO, fir_com, _strlen(fir_com));
-	write(STDERR_FILENO, ": not found\n", 12);
+	write(STDERR_FILENO, ": your command is not recognized in our system\n", 100);
 }
 
 /**
