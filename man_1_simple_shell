@@ -1,7 +1,7 @@
-.TH HSH 1 "20 August 2019" "1.0" "simple_shell man page"
+.TH HSH 1 "1 November 2021" "0.01" "simple_shell man page"
 .SH NAME
 .B simple_shell
-- Simple Shell for Holberton School
+- Simple Shell for ALX School
 .SH SYNOPSIS
 .B ./hsh
 [command] [options]
